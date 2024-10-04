@@ -1,11 +1,11 @@
 import chalk from "chalk";
 import cowsay from "cowsay";
 
-console.log(chalk.white.bgRedBright("Hello Jan"));
+console.log(chalk.white.bgRedBright("Hello Enki"));
 
 let output = cowsay.say({
-  text: "Moo",
+  text: "Oi oi oi",
 });
 console.log(output);
 
-console.log(cowsay.think({ text: "Hello Jan" }));
+console.log(cowsay.think({ text: "Hello Enki" }));
